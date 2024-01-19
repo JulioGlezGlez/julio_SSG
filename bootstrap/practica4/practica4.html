@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Bootstrap</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
@@ -37,10 +37,10 @@
                     <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                 </div>
             </div>
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <nav class="navbar navbar-expand-xl navbar-dark bg-dark">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="">
-                        <img src="/img/laliga.png" width="30" height="30" class="d-inline-block align-top" alt="">
+                    <img src="./img/laliga.png" width="30" height="30" class="d-inline-block align-top" alt="">
+                    <a class="navbar-brand mx-md-auto" href="">
                         La Liga
                     </a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="navbarNavDropdown"
@@ -108,7 +108,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-6">
+            <div class="col-xl-6 col-md-6 col-xs-12">
                 <div class="accordion" id="accordionExample">
                     <div class="accordion-item">
                         <h2 class="accordion-header">
@@ -162,36 +162,33 @@
             </div>
             <div class="col-6">
                 <div class="row gap">
-                    <figure class="figure col-3">
+                    <figure class="figure col-xl-3 col-md-6 col-6 ">
                         <div class="card" style="width: 12rem;">
-                            <img src="./img/barcelona.jpg" class="figure-img img-fluid rounded-circle rounded"
-                                alt="...">
+                            <img src="./img/barcelona.jpg" class="figure-img img-fluid " alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">FC Barcelona</h5>
                             </div>
                         </div>
                     </figure>
-                    <figure class="figure col-3">
+                    <figure class="figure col-xl-3 col-md-6 col-6">
                         <div class="card" style="width: 12rem;">
-                            <img src="./img/realmadrid.jpg" class="figure-img img-fluid rounded-circle rounded"
-                                alt="...">
+                            <img src="./img/realmadrid.jpg" class="figure-img img-fluid " alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Real Madrid</h5>
                             </div>
                         </div>
                     </figure>
-                    <figure class="figure col-3">
+                    <figure class="figure col-xl-3 col-md-6 col-6">
                         <div class="card" style="width: 12rem;">
-                            <img src="./img/tenerife.jpg" class="figure-img img-fluid rounded-circle rounded" alt="...">
+                            <img src="./img/tenerife.jpg" class="figure-img img-fluid " alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Tenerife</h5>
                             </div>
                         </div>
                     </figure>
-                    <figure class="figure col-3">
+                    <figure class="figure col-xl-3 col-md-6 col-6">
                         <div class="card" style="width: 12rem;">
-                            <img src="./img/laspalmas.jpg" class="figure-img img-fluid rounded-circle rounded"
-                                alt="...">
+                            <img src="./img/laspalmas.jpg" class="figure-img img-fluid " alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Las Palmas</h5>
                             </div>
@@ -201,7 +198,7 @@
             </div>
         </div>
         <div class="row my-4">
-            <div class="col-4">
+            <div class="col-xl-4 col-md-6">
                 <div id="carouselExampleDark" class="carousel carousel-light slide">
                     <div class="carousel-indicators">
                         <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
@@ -255,7 +252,7 @@
                     </button>
                 </div>
             </div>
-            <div class="col-4">
+            <div class="col-xl-4 col-md-6">
                 <form>
                     <div class="row ">
                         <div class="col mb-3">
@@ -332,33 +329,33 @@
                         </div>
                     </div>
             </div>
-            <div class="col-4">
+            <div class="col-xl-4 col-md-12">
                 <div class="row">
-                    <div class="col-3 offset-3 ">
+                    <div class="col-xl-3 col-md-3 col-6 offset-xl-3  ">
                         <img class="img-fluid rounded-circle" src="./img/barcelona.jpg" alt="...">
                     </div>
-                    <div class="col-3 ">
+                    <div class="col-xl-3 col-md-3 d-none d-md-block">
                         <img class="img-fluid rounded-circle" src="./img/barcelona.jpg" alt="...">
                     </div>
-                    <div class="w-100 d-none d-md-block  "></div>
-                    <div class="col-3">
+                    <div class="w-100 d-none d-xl-block  "></div>
+                    <div class="col-xl-3 col-md-3 col-6">
                         <img class="img-fluid rounded-circle" src="./img/realmadrid.jpg" alt="...">
                     </div>
-                    <div class="col-3 offset-6">
+                    <div class="col-xl-3 col-md-3 d-none d-md-block offset-xl-6 ">
                         <img class="img-fluid rounded-circle" src="./img/realmadrid.jpg" alt="...">
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-3">
+                    <div class="col-xl-3 col-md-3 col-6">
                         <img class="img-fluid rounded-circle" src="./img/tenerife.jpg" alt="...">
                     </div>
-                    <div class="col-3 ">
+                    <div class="col-xl-3 col-md-3 d-none d-md-block">
                         <img class="img-fluid rounded-circle" src="./img/tenerife.jpg" alt="...">
                     </div>
-                    <div class="col-3">
+                    <div class="col-xl-3 col-md-3 col-6">
                         <img class="img-fluid rounded-circle" src="./img/laspalmas.jpg" alt="...">
                     </div>
-                    <div class="col-3">
+                    <div class="col-xl-3 col-md-3 d-none d-md-block">
                         <img class="img-fluid rounded-circle" src="./img/laspalmas.jpg" alt="...">
                     </div>
                 </div>
